@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    height: 240px;
+    background-image: url('../images/header-background.jpg');
+
+}
+
+.header-nav{
+    background-color: #006752;
+    padding: 15px;  
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+h3 span{
+    color:  #19e9bf;
+    font-size: 30px;
+}
+
+.header-nav ul{
+    display: flex;
+    justify-content: flex-end;  
+    list-style: none;
+}
+
+.header-nav ul li{
+    color: #fff;
+    padding-inline-start: 10px;
+    cursor: pointer;
+}
+
+.header-nav ul li:hover{
+    font-size: 22px;
+    color: #0ba787;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-block-start: 50px;
+    background-color: transparent;
+    border-block-end: 1px solid #006752;
+}
+/* Estilos main */
+ main{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: 550px;
+     background-color: whitesmoke;
+ }
+
+ main .fruit-card{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     height:400px;
+     width: 250px;
+     margin-inline-start: 10px;
+     margin-block-start:  100px;
+     border: 2px solid transparent;
+     border-radius: 18px;
+     background-color: #006752;
+
+ }
+
+ .fruit-card img{
+     border-radius: 5px;
+     margin: 0 1px;
+     margin-block-start: -30px;
+     width: 98%;
+     height: 180px;
+     object-fit: cover;
+     
+ }
+
+ .fruit-card h2{
+     font-size: 35px;
+     font-weight: bold;
+     color: whitesmoke;
+    }
+
+
+.fruit-card p{
+    font-family: sans-serif;
+    padding: 0 2px 0 6px;
+    color: whitesmoke;
+}
+
+/* Estilos footer */
+
+footer{
+    padding: 10px 20px;
+    background-color: #006752;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+footer p span{
+    color: #0ba787;
+}
+
+footer p span:hover{
+    color: #19e9bf;
+    cursor: pointer;
+}
